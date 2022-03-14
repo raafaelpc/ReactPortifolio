@@ -14,7 +14,7 @@ function Skills() {
    
     <div className='skills'>
        <div className='skills--container'>
-         <h2>Skills</h2>
+         <h2>My Skills</h2>
          <div className='skills--overlay'>
          <div className='skills--icons'>
           <ul>

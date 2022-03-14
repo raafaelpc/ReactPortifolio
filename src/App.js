@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar.js";
 //PAGES
 
 import Error from "./pages/Error.js";
-import About from "./pages/About.js";
+import Projects from "./pages/Projects.js";
 import Skills from "./pages/Skills.js"
 import Contacts from "./pages/Contacts.js";
 import Footer from "./components/Footer.js";
@@ -27,7 +27,7 @@ const App = () => {
     <Routes>
       
       <Route path="/" element = {<Homepage/>} ></Route>
-      <Route path="/about" element = {<About/>}></Route>
+      <Route path="/projects" element = {<Projects/>}></Route>
       <Route path="/skills" element = {<Skills/>}></Route>
       <Route path="/contact" element = {<Contacts/>}></Route>
 

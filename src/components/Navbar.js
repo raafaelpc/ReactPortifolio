@@ -27,9 +27,9 @@ function Navbar() {
                     <li onClick={()=> setIsOpen(false)}>
                          <Link to="/">Sobre</Link>
                     </li>
-                   {/*<li onClick={()=> setIsOpen(false)}>
-                       <Link to="/about">Sobre</Link>
-                    </li>*/}
+                   <li onClick={()=> setIsOpen(false)}>
+                       <Link to="/projects">Projetos</Link>
+                    </li>
                     <li onClick={()=> setIsOpen(false)}>
                         <Link to="/skills">Habilidades</Link>
                     </li>
